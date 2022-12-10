@@ -1,0 +1,120 @@
+a {
+    text-decoration: none;
+  }
+  
+  .navbar {
+    background-color: rgb(128, 128, 128);
+    display: flex;
+    align-items: center;
+    float: right;
+  }
+  
+  .navbar a {
+    color: #e7e7e7;
+  }
+  
+  .navbar ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+  }
+  
+  
+  .navbar a {
+    color: #e7e7e7;
+    padding: 24px;
+    display: block;
+  }
+  
+  .navbar ul a:hover,
+  .navbar ul a:focus,
+  .navbar ul .active {
+    background-color: #e51616;
+  }
+  .data{
+    padding-top: 100px;
+    color: aliceblue;
+    font-size: 30px;
+  }
+  button{
+    background-color: red;
+    height: 40px;
+    width: 160px;
+    border-radius:15px ;
+    border: none;
+
+  }
+  .bt:hover{
+    color: crimson;
+    font-family: fantasy;
+    background-color: aqua;
+  }
+  table,th,td{
+    border:1px solid #150050;
+    font-style: italic;
+    color: #3F0071;
+
+
+}
+table{
+    width:1100px;
+    text-align: center;
+    border-radius: 20px;
+
+
+}
+th{
+    background-color: aqua;
+    border-radius: 20px;
+
+}
+
+td{
+    border-radius: 20px;
+}
+tr:nth-child(odd){
+    background-color: bisque;
+    border-radius: 20px;
+}
+tr:nth-child(even){
+    background-color: rgb(240, 239, 237);
+    border-radius: 20px;
+}
+tr:hover{
+    color: #3F0071;
+    background-color: rgb(0, 255, 42);
+    
+
+}
+th:hover{
+    color: #3F0071;
+    background-color: rgb(0, 255, 42);
+
+}
+th,td{
+    padding: 10px;
+}
+hr{
+    background-color: blueviolet;
+}
+.cc{
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.grid-container{
+    display: grid;
+    grid-template-rows: 180px 180px;
+    grid-template-columns: auto auto auto;
+    margin: 10px;
+}
+.grid-item{
+    font-size: 30px;
+    text-align: center;
+    margin: 20px;
+    padding: 30px;
+}
+.gp{
+    width: 400px;
+    height: 200px;
+}
